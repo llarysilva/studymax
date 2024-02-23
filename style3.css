@@ -1,0 +1,160 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    background-color: #000b7f;
+    width: 100%;
+    
+    
+    
+}
+
+
+body {
+    background-color: rgba(240, 146, 207, 0.089);
+}
+
+header {
+    position: fixed;
+}
+
+#check {
+    display: none;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    
+}
+
+.logo a {
+    color: white;
+    font-weight: bold;font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo a:hover {
+    background-color: transparent;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white ;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background-color: #532be5;
+    transition: all .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: rgb(133, 64, 0);
+    padding: 12px;
+    text-align: center;
+    
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 90% ;
+    margin: auto;
+}
+div.slogan img {
+    width: 98%;
+    margin-left: 1%;
+}
+div.conteudo {
+    padding: 12px;
+}
+
+div.conteudo p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 00;
+    font-style: normal; 
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.632);
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+div.conteudo h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    color: #323232d7;
+    font-size: 40px;
+    padding-top: 10px;
+    padding: 20px;
+}
+div.gama h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    color: #323232d7;
+    font-size: 40px;
+    padding-top: 10px;
+    padding: 20px;
+}
+div.recursos {
+    padding-top: 10px;
+    padding: 20px;
+}
+div.recursos a {
+
+    font-size: 20px; color: black;
+}
+div.recursos a:hover {
+    background-color: white;
+    color: rgba(0, 18, 179, 0.501);
+    transition: all s;
+}
+footer a {
+    color: #c4bbb4;
+    transition: all ease .5s;
+}
+
+footer a:hover {
+    background-color: transparent;
+    color: #264cc7;
+}

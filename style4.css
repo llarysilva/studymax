@@ -1,0 +1,83 @@
+@media (max-width:990px) {
+    .checkbtn {
+        display: block;
+    }
+    
+    
+    label.logo {
+        padding: 0 10px;
+    
+    }
+
+    label.logo  {
+        font-size: 1.3em;
+    }
+
+
+    
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #4349fb;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,a.active {
+        background: none; 
+        color: #33060a;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+} 
+@media (max-width:600px) {
+    div.conteudo h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal; 
+        color: #323232d7;
+        font-size: 25px;
+        padding-top: 10px;
+        padding: 20px;
+    }
+    div.conteudo p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 00;
+        font-style: normal; 
+        padding-top: 20px;
+        color: rgba(0, 0, 0, 0.632);
+        font-size: 15px;
+        text-align: justify;
+        padding: 15px;
+    }
+    div.gama h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal; 
+        color: #323232d7;
+        font-size: 25px;
+        padding-top: 10px;
+        padding: 20px;
+    }
+    div.recursos a {
+
+        font-size: 15px; color: black;
+    }
+}
+
